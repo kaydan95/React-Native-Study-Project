@@ -1,9 +1,14 @@
 import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
 import React, {useLayoutEffect} from 'react'
 import { useNavigation } from '@react-navigation/native'
-import { UserIcon, ChevronDownIcon, AdjustmentsVerticalIcon, MagnifyingGlassIcon, AdjustmentsHorizontalIcon } from "react-native-heroicons/outline";
-import TopBrandSection from '../components/TopBrandSection';
-
+import {
+  UserIcon,
+  ChevronDownIcon,
+  MagnifyingGlassIcon,
+  AdjustmentsHorizontalIcon,
+} from "react-native-heroicons/outline";
+import TopBrandSection from "../components/TopBrandSection";
+import MainCategorySection from "../components/MainCategorySection";
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -50,7 +55,10 @@ const HomeScreen = () => {
 
       {/* body */}
       <ScrollView>
+        {/* brand section */}
         <TopBrandSection className="absolute" />
+        {/* top category with news or event */}
+        <MainCategorySection />
       </ScrollView>
     </SafeAreaView>
   );
