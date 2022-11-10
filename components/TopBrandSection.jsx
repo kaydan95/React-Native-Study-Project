@@ -5,7 +5,7 @@ import TopBrandCard from "./TopBrandCard";
 const TopBrandSection = () => {
   return (
     <>
-      <Text className="text-xl ml-3 mb-3 font-bold">Top brand</Text>
+      <Text className="text-2xl ml-3 mb-3 font-bold">Top brand</Text>
       <ScrollView
         contentContainerStyle={{
           paddingHorizontal: 10,

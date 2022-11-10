@@ -3,7 +3,10 @@ import React from "react";
 
 const TopBrandCard = ({ imgUrl, name }) => {
   return (
-    <TouchableOpacity activeOpacity={0.7} className="w-28 h-20 mr-3 flex-row">
+    <TouchableOpacity
+      activeOpacity={0.7}
+      className="w-28 h-20 mr-3 mb-3 flex-row"
+    >
       <ImageBackground
         source={{ uri: imgUrl }}
         resizeMode="cover"
