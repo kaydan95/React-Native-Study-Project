@@ -10,7 +10,7 @@ const MainCategoryCard = ({
   itemBrand,
 }) => {
   return (
-    <View className="w-full px-3 mt-1 mb-10">
+    <View className="w-full px-3 mt-1 mb-6">
       <Image
         source={{ uri: imgUrl }}
         resizeMode="cover"
