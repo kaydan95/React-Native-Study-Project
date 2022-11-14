@@ -18,16 +18,16 @@ const MainCategorySection = () => {
         />
         <MainCategoryCard
           title="eco friendly"
-          itemImgUrl="https://images.unsplash.com/photo-1607292819104-c54624be6bc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          itemTitle="Oat Drink"
-          itemBrand="Oatly"
+          itemImgUrl="https://images.unsplash.com/photo-1625603539427-35785c450557?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80"
+          itemTitle="Huskee Product"
+          itemBrand="Huskee"
           imgUrl="https://images.unsplash.com/photo-1615290144628-8fa0f0d61658?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
         />
         <MainCategoryCard
           title="a doer, not a talker"
-          itemImgUrl="https://images.unsplash.com/photo-1607292819104-c54624be6bc2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
-          itemTitle="Oat Drink"
-          itemBrand="Oatly"
+          itemImgUrl="https://images.unsplash.com/photo-1617897903246-719242758050?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+          itemTitle="hinok spray"
+          itemBrand="hinok"
           imgUrl="https://images.unsplash.com/photo-1617953141905-b27fb1f17d88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80"
         />
       </View>
