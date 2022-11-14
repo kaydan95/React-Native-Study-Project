@@ -1,6 +1,14 @@
-import { View, Text, SafeAreaView, Image, TextInput, ScrollView } from 'react-native'
-import React, {useLayoutEffect} from 'react'
-import { useNavigation } from '@react-navigation/native'
+import {
+  View,
+  Text,
+  SafeAreaView,
+  Image,
+  TextInput,
+  ScrollView,
+  StatusBar,
+} from "react-native";
+import React, { useLayoutEffect } from "react";
+import { useNavigation } from "@react-navigation/native";
 import {
   UserIcon,
   ChevronDownIcon,
@@ -20,7 +28,7 @@ const HomeScreen = () => {
   }, []);
 
   return (
-    <SafeAreaView className="bg-white pt-5">
+    <SafeAreaView className="bg-white h-screen pt-5">
       {/* header */}
       <View className="flex-row pb-3 items-center mx-4 space-x-2">
         <Image
@@ -54,11 +62,15 @@ const HomeScreen = () => {
       </View>
 
       {/* body */}
-      <ScrollView>
+      <ScrollView className="h-5/6">
         {/* brand section */}
         <TopBrandSection className="absolute" />
         {/* top category with news or event */}
-        <MainCategorySection />
+        <MainCategorySection className="h-full" />
+        {/* footer */}
+        <View className="px-3">
+          <Text className="text-center text-sm font-semibold">@All_Ganics</Text>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
