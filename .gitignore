@@ -9,6 +9,13 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
+.env
 
 # macOS
 .DS_Store
+
+# auth-data
+google-services.json
+GoogleService-info.plist
+firebase.js
+hooks/useAuth.js
